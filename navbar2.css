@@ -1,0 +1,37 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+}
+
+.nav .midnav{
+    display:flex;
+    list-style-type:none;
+}
+.nav .midnav li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.nav .starnav{
+    list-style-type: none;
+}
+.nav .starnav li img{
+    width: 90px;
+}
+.nav .endnav{
+    list-style-type: none;
+}
+.nav .endnav li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32,32,51);
+    padding: 10px 20px 10px 20px;
+}
