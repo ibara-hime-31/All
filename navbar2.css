@@ -69,4 +69,53 @@ body{
 .hero .hero1 .hero12{
     padding-top: 100px;
 }
+.hero .hero3{
+    padding-top: 400px;
+}
+.hero .hero3 i{
+    font-size: 24px;
+    background-color: white;
+    border-radius: 40px;
+    padding:10px;
+}
+.client{
+    background-color: rgb(33, 33, 96);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px 50px 100px;
+    /*border:10px solid orangered;*/
 
+}
+.client div{
+    /*border:2px solid red;*/
+}
+.clienth1{
+    background-color: rgb(33,33,96);
+    color: white;
+    margin:0px;
+    padding: 30px;
+}
+.website .website1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    color: rgb(33,33,96);
+    font-size: 30px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+.website .website2{
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(33, 33, 96);
+    padding-bottom: 50px;
+}
+
+.dedication{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
